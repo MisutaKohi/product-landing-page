@@ -1,2 +1,4 @@
-# product-landing-page
-An example of a product landing page for a helicopter tour company.
+# Product Landing Page
+This repository contains an HTML and CSS file 
+that pair to form an example product landing 
+page for a helicoptor tour company.
