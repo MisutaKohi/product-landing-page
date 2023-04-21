@@ -1,7 +1,35 @@
-@media {
-    
+@media (max-width: 100px) {
+
 }
 
 * {
     box-sizing: box-border;
+}
+
+body {
+    background-color: rgb(238, 238, 238);    
+}
+
+#nav-wrap {
+    border: 2px solid black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    
+}
+
+.nav-link-list {
+    display: flex;
+    justify-content: right;
+    flex-direction: row;
+}
+
+.nav-link {
+    margin-right: 3%;
+    list-style: none;
+}
+
+main {
+    margin-top: 100px;
 }
