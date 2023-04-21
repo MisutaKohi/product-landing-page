@@ -11,23 +11,54 @@ body {
 }
 
 #nav-wrap {
-    border: 2px solid black;
+    background-color: goldenrod;
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    
+    height: 60pxpx;
 }
 
 .nav-link-list {
     display: flex;
     justify-content: right;
     flex-direction: row;
+    width: 40%;
 }
 
 .nav-link {
     margin-right: 3%;
     list-style: none;
+    justify-content: center;
+    display: flex;
+    width: 30%;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+li > a {
+    padding-top: 7px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.2em;
+    color:black;
+    width: 100%;
+    height:100%;
+    
+}
+
+li > a:hover {
+    background-color: gold;
+    border-radius: 5px;
+    box-shadow: 0 0 3px 3px black;
+}
+
+#nav-bar {
+    display: flex;
+}
+
+.logo {
+    width: 60%;
 }
 
 main {
