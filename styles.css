@@ -1,3 +1,5 @@
+/* Navbar focused */
+
 @media (max-width: 825px) {
     .nav-wrap {
         height: 100px !important;
@@ -5,6 +7,7 @@
 
     .page-links {
         flex-direction: column !important; 
+        justify-content: space-evenly !important;
     }
 
     .nav-link {
@@ -30,6 +33,7 @@
 
 html {
     padding-bottom: 0;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -97,7 +101,7 @@ img {
     width: 40%;
     height: 100%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: right;
     align-items: center;
     margin-top: 0;
 }
@@ -120,11 +124,10 @@ img {
     color: black;
     text-align: center;
     font-weight: bold;
-    border: 1px rgb(209, 209, 209) solid;
+    border: 1px rgb(94, 94, 94) solid;
 }
 
 .nav-link > a:hover {
-    box-shadow: 1px 1px 3px 3px black;
     background-color: gold;
 }
 
@@ -267,8 +270,35 @@ footer p {
 
 .package {
     border: 2px solid black;
-    padding-right: 45px;
-    padding-left: 45px;
-    padding-bottom: 25px;;
     margin-top: 60px;
+    padding-bottom: 20px;
+}
+
+.package-type {
+    background-color:rgb(209, 209, 209);
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+}
+
+.package-type h3 {
+    text-align: center;
+    width: 100%;
+}
+
+.package p {
+    margin-right: 45px;
+    margin-left: 45px;
+}
+
+.package h2 {
+    margin-top: 15px;
+}
+
+.package input {
+    background-color: goldenrod;
+    border: none;
+    font-size: 1em;
+    padding: 3px;
 }
