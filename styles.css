@@ -47,7 +47,7 @@ body {
 
 img {
     width: 30px;
-    height: 30px;
+    height: 20px;
     margin: 0;
     padding: 0;
     margin-right: 3px;
@@ -104,9 +104,11 @@ li > a {
     font-size: 1.1em;
     color: black;
     text-align: center;
+    
 }
 
 li > a:hover {
     box-shadow: 1px 1px 3px 3px black;
     background-color: gold;
+    font-weight: bold;
 }
