@@ -25,6 +25,57 @@
     }
 }
 
+/* Features level focused */
+
+@media (min-width: 800px) {
+    .feature-left {
+        width: 30% !important;
+    }
+
+    .feature-right {
+        width: 70% !important;
+    }
+}
+
+@media (min-width: 1200px) {
+    .feature-left {
+        width: 35% !important;
+    }
+
+    .feature-right {
+        width: 65% !important;
+    }
+}
+
+/* Packages level focused */
+
+@media (max-width: 800px) {
+    .packages-wrap {
+        flex-direction: column;
+    }
+
+    .package {
+        width: 300px !important;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: -60px !important;
+    }
+
+    .package:last-of-type {
+        margin-bottom: 20px !important;
+    }
+}
+
+/* Footer focused */
+
+@media (max-width: 800px) {
+    footer {
+        width: 80% !important;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
 /* Document level preferences */ 
 
 * {
@@ -214,6 +265,7 @@ h2 {
     width: 100vw;
     margin-bottom: -10px;
     margin-top: 45px;
+    margin-left: -10px;
 }
 
 footer {
