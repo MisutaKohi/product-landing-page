@@ -1,4 +1,4 @@
-@media (max-width: 800px) {
+@media (max-width: 825px) {
     .nav-wrap {
         height: 100px !important;
     }
@@ -15,6 +15,10 @@
     li > a {
         height: 20px !important;
         padding: 0 !important;
+    }
+
+    main {
+        margin-top: 125px !important;
     }
 }
 
@@ -46,11 +50,10 @@ body {
 }
 
 img {
-    width: 30px;
-    height: 20px;
+    width: 0px;
+    height: 0px;
     margin: 0;
     padding: 0;
-    margin-right: 3px;
 }
 
 .company-branding {
@@ -64,9 +67,16 @@ img {
     height: 100%;
     width: 20%;
     display: flex;
-    justify-content: right;
     align-items: center;
+    text-align: right;
 }
+
+#logo-copter {
+   text-align: right;
+   width: 100%;
+   padding-right: 4px;
+}
+
 
 .company-branding h2 {
     margin: 0;
@@ -104,11 +114,83 @@ li > a {
     font-size: 1.1em;
     color: black;
     text-align: center;
-    
+    font-weight: bold;
 }
 
 li > a:hover {
     box-shadow: 1px 1px 3px 3px black;
     background-color: gold;
+}
+
+main {
+    margin-top: 85px;
+    text-align: center;
+}
+
+.form-wrap {
+    display: flex;
+    justify-items: center;
+}
+
+form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+#email {
+    width: 300px;
+    height: 30px;
+}
+
+#submit {
+    margin-top: 10px;
+    width: 250px;
+    height: 30px;
+    border: none;
     font-weight: bold;
+    background-color: goldenrod;
+    font-size: 1.1em;
+}
+
+.feature-wrap {
+    display: flex;
+    flex-direction: row;
+    margin-top: 60px;
+}
+
+.feature-wrap:first-of-type {
+    margin-top: 100px;
+}
+
+.feature-left {
+    height: 50px;
+    width: 25%;
+    justify-content: right;
+    align-items: center;
+    display: flex;
+}
+
+.feature-right {
+    width: 75%;
+    text-align: left;
+}
+
+.feature-left i {
+    text-align: right;
+    margin-right: 50px;
+}
+
+h2 {
+    margin: 0;
+    padding: 0;
+}
+
+.feature-right p {
+    margin: 0;
+    padding: 0;
+    padding-right: 20px;
 }
