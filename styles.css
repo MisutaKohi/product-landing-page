@@ -101,6 +101,7 @@ body {
     left: 0;
     width: 100%;
     height: 60px;
+    z-index: 5;
 }
 
 #nav-bar {
@@ -257,6 +258,13 @@ h2 {
     margin: 0;
     padding: 0;
     padding-right: 20px;
+}
+
+/* Video elements */
+
+video {
+    margin-top: 60px;
+    z-index: -1;
 }
 
 /* Footer Elements */
